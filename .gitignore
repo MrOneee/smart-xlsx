@@ -1,0 +1,74 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytype/
+cython_debug/
+
+# 虚拟环境（常见目录名）
+.venv/
+venv/
+ENV/
+env/
+
+# --- IDE / 编辑器 ---
+# JetBrains（IntelliJ / PyCharm / IDEA）：个人运行配置、缓存，不应进仓库
+.idea/
+
+# VS Code / Cursor 本地状态（若需共享 .vscode/settings.json，可改为白名单或单独提交）
+.vscode/
+
+# --- 操作系统 ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Office / Excel ---
+# Excel 打开文件时产生的临时锁文件（~$workbook.xlsx）
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# --- 本地杂项 ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- 可选：仅作本地参考的第三方 skill 副本 ---
+# 若希望仓库只保留根目录「smart xlsx」技能与 scripts，不把 target-skills 推远程，取消下一行注释：
+# target-skills/
